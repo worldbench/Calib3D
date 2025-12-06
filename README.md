@@ -56,6 +56,28 @@
 - :bus: **Epistemic Uncertainty in 3D:** Different from the rather unified network structures in 2D, 3D scene understanding models shed a wider array of structures due to the complex nature of 3D data processing. Our investigation extends to the model uncertainty associated with the diverse 3D architectures, highlighting the importance of addressing knowledge gaps in model training and data representation.
 
 
+## Citation
+If you find this work helpful for your research, please kindly consider citing our papers:
+
+```bibtex
+@inproceedings{kong2025calib3d,
+    title     = {{Calib3D}: Calibrating Model Preferences for Reliable {3D} Scene Understanding},
+    author    = {Lingdong Kong and Xiang Xu and Jun Cen and Wenwei Zhang and Liang Pan and Kai Chen and Ziwei Liu},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    pages     = {1965-1978},
+    year      = {2025}
+}
+```
+```bibtex
+@misc{mmdet3d,
+    title     = {{MMDetection3D}: {OpenMMLab} Next-Generation Platform for General {3D} Object Detection},
+    author    = {MMDetection3D Contributors},
+    howpublished = {\url{https://github.com/open-mmlab/mmdetection3d}},
+    year      = {2020}
+}
+```
+
+
 ### Motivation
 
 | <img src="docs/figs/teaser.png" align="center" width="98%"> |
@@ -1074,30 +1096,8 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 - [x] Add 3D calibration algorithms.
 - [x] Add acknowledgments.
 - [x] Add citations.
-- [ ] Add more 3D scene understanding models.
+- [x] Add more 3D scene understanding models.
 
-
-
-## Citation
-If you find this work helpful for your research, please kindly consider citing our papers:
-
-```bibtex
-@inproceedings{kong2025calib3d,
-    author = {Lingdong Kong and Xiang Xu and Jun Cen and Wenwei Zhang and Liang Pan and Kai Chen and Ziwei Liu},
-    title = {Calib3D: Calibrating Model Preferences for Reliable 3D Scene Understanding},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-    pages = {1965-1978},
-    year = {2025},
-}
-```
-```bibtex
-@misc{mmdet3d,
-    title = {MMDetection3D: OpenMMLab Next-Generation Platform for General 3D Object Detection},
-    author = {MMDetection3D Contributors},
-    howpublished = {\url{https://github.com/open-mmlab/mmdetection3d}},
-    year = {2020}
-}
-```
 
 
 
